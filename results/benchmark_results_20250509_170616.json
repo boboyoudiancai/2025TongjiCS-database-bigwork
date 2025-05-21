@@ -1,0 +1,33 @@
+[
+  {
+    "index_type": "FLAT",
+    "avg_latency": 0.3704838752746582,
+    "std_latency": 0.055494188942676444,
+    "avg_recall": 1.0,
+    "std_recall": 0.0,
+    "search_params": {},
+    "build_time": 0.5164914131164551
+  },
+  {
+    "index_type": "IVF_FLAT",
+    "avg_latency": 0.30132532119750977,
+    "std_latency": 0.01950084414528466,
+    "avg_recall": 0.27899999999999997,
+    "std_recall": 0.0,
+    "search_params": {
+      "nprobe": 16
+    },
+    "build_time": 1.527477741241455
+  },
+  {
+    "index_type": "IVF_SQ8",
+    "avg_latency": 0.2825450897216797,
+    "std_latency": 0.014185409457086616,
+    "avg_recall": 0.27899999999999997,
+    "std_recall": 0.0,
+    "search_params": {
+      "nprobe": 16
+    },
+    "build_time": 0.519007682800293
+  }
+]
